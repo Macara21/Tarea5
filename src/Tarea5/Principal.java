@@ -282,19 +282,19 @@ public class Principal {
 
                     if (cliente2.getDni().equals(vehiculo1.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo1.getMarca() + "    Matricula: " + vehiculo1.getMatricula() + "    Kilometros: " + vehiculo1.getKms() + "    Matriculación: " + vehiculo1.getfMatriculacion() + "    Kilometros: " + vehiculo1.getKms());
+                        System.out.println("*-- " + vehiculo1.getMarca() + "    Matricula: " + vehiculo1.getMatricula() + "    Kilometros: " + vehiculo1.getKms() + "    Matriculación: " + vehiculo1.getfMatriculacion() + "    Vehículo de " + vehiculo1.getAnios() + " años.");
                     }
                     if (cliente2.getDni().equals(vehiculo2.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo2.getMarca() + "    Matricula: " + vehiculo2.getMatricula() + "    Kilometros: " + vehiculo2.getKms() + "    Matriculación: " + vehiculo2.getfMatriculacion() + "    Kilometros: " + vehiculo2.getKms());
+                        System.out.println("*-- " + vehiculo2.getMarca() + "    Matricula: " + vehiculo2.getMatricula() + "    Kilometros: " + vehiculo2.getKms() + "    Matriculación: " + vehiculo2.getfMatriculacion() + "    Vehículo de " + vehiculo2.getAnios() + " años.");
                     }
                     if (cliente2.getDni().equals(vehiculo3.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo3.getMarca() + "    Matricula: " + vehiculo3.getMatricula() + "    Kilometros: " + vehiculo3.getKms() + "    Matriculación: " + vehiculo3.getfMatriculacion() + "    Kilometros: " + vehiculo3.getKms());
+                        System.out.println("*-- " + vehiculo3.getMarca() + "    Matricula: " + vehiculo3.getMatricula() + "    Kilometros: " + vehiculo3.getKms() + "    Matriculación: " + vehiculo3.getfMatriculacion() + "    Vehículo de " + vehiculo3.getAnios() + " años.");
                     }
                     if (cliente2.getDni().equals(vehiculo4.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo4.getMarca() + "    Matricula: " + vehiculo4.getMatricula() + "    Kilometros: " + vehiculo4.getKms() + "    Matriculación: " + vehiculo4.getfMatriculacion() + "    Kilometros: " + vehiculo4.getKms());
+                        System.out.println("*-- " + vehiculo4.getMarca() + "    Matricula: " + vehiculo4.getMatricula() + "    Kilometros: " + vehiculo4.getKms() + "    Matriculación: " + vehiculo4.getfMatriculacion() + "    Vehículo de " + vehiculo4.getAnios() + " años.");
                     }
 
                 }
