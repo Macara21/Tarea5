@@ -282,19 +282,19 @@ public class Principal {
 
                     if (cliente2.getDni().equals(vehiculo1.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo1.getMarca() + "    Matricula: " + vehiculo1.getMatricula() + "    Kilometros: " + vehiculo1.getKms() + "    Matriculación: " + vehiculo1.getfMatriculacion());
+                        System.out.println("*-- " + vehiculo1.getMarca() + "    Matricula: " + vehiculo1.getMatricula() + "    Kilometros: " + vehiculo1.getKms() + "    Matriculación: " + vehiculo1.getfMatriculacion() + "    Kilometros: " + vehiculo1.getKms());
                     }
                     if (cliente2.getDni().equals(vehiculo2.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo2.getMarca() + "    Matricula: " + vehiculo2.getMatricula() + "    Kilometros: " + vehiculo2.getKms() + "    Matriculación: " + vehiculo2.getfMatriculacion());
+                        System.out.println("*-- " + vehiculo2.getMarca() + "    Matricula: " + vehiculo2.getMatricula() + "    Kilometros: " + vehiculo2.getKms() + "    Matriculación: " + vehiculo2.getfMatriculacion() + "    Kilometros: " + vehiculo2.getKms());
                     }
                     if (cliente2.getDni().equals(vehiculo3.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo3.getMarca() + "    Matricula: " + vehiculo3.getMatricula() + "    Kilometros: " + vehiculo3.getKms() + "    Matriculación: " + vehiculo3.getfMatriculacion());
+                        System.out.println("*-- " + vehiculo3.getMarca() + "    Matricula: " + vehiculo3.getMatricula() + "    Kilometros: " + vehiculo3.getKms() + "    Matriculación: " + vehiculo3.getfMatriculacion() + "    Kilometros: " + vehiculo3.getKms());
                     }
                     if (cliente2.getDni().equals(vehiculo4.getDniProp())) {
 
-                        System.out.println("*-- " + vehiculo4.getMarca() + "    Matricula: " + vehiculo4.getMatricula() + "    Kilometros: " + vehiculo4.getKms() + "    Matriculación: " + vehiculo4.getfMatriculacion());
+                        System.out.println("*-- " + vehiculo4.getMarca() + "    Matricula: " + vehiculo4.getMatricula() + "    Kilometros: " + vehiculo4.getKms() + "    Matriculación: " + vehiculo4.getfMatriculacion() + "    Kilometros: " + vehiculo4.getKms());
                     }
 
                 }
@@ -312,7 +312,7 @@ public class Principal {
         try {
             if (cliente1 != null || cliente2 != null) {
 
-                System.out.println("DNI: " + cliente1.getDni() + "    Nombre: " + cliente1.getNombre() + "    Apellidos: " + cliente1.getApellidos());
+                System.out.println("\nDNI: " + cliente1.getDni() + "    Nombre: " + cliente1.getNombre() + "    Apellidos: " + cliente1.getApellidos());
                 System.out.println("**************************************************************************************************************");
 
                 if (cliente1.getDni().equals(vehiculo1.getDniProp())) {
@@ -332,7 +332,7 @@ public class Principal {
                     System.out.println("Matricula: " + vehiculo4.getMatricula() + "    Marca: " + vehiculo4.getMarca() + "    Kilometros: " + vehiculo4.getKms());
                 }
 
-                System.out.println("DNI: " + cliente2.getDni() + "    Nombre: " + cliente2.getNombre() + "    Apellidos: " + cliente2.getApellidos());
+                System.out.println("\nDNI: " + cliente2.getDni() + "    Nombre: " + cliente2.getNombre() + "    Apellidos: " + cliente2.getApellidos());
                 System.out.println("**************************************************************************************************************");
 
                 if (cliente2.getDni().equals(vehiculo1.getDniProp())) {

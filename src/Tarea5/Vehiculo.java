@@ -10,13 +10,16 @@ import java.time.Period;
  */
 public class Vehiculo {
     
+    //DECLARACIÓN DE VARIABLES
     private int kms, precio;
     private String marca, matricula, descripcion, nombreProp, dniProp;
     private LocalDate fMatriculacion;
 
+    //CONSTRUCTOR VACIO
     public Vehiculo() {
     }
 
+    //CONSTRUCTOR CON PARÁMETROS
     public Vehiculo(int kms, int precio, String marca, String matricula, String descripcion, String nombreProp, String dniProp, LocalDate fMatriculacion) {
         this.kms = kms;
         this.precio = precio;
@@ -28,6 +31,7 @@ public class Vehiculo {
         this.fMatriculacion = fMatriculacion;
     }
 
+    //MÉTODOS SETTERS Y GETTERS
     public int getKms() {
         return kms;
     }
@@ -97,9 +101,9 @@ public class Vehiculo {
       
     public int  getAnios() {
         LocalDate fechaActual = LocalDate.now();                //Se crea Localdate con fecha actual
-        LocalDate Matriculacion = this.fMatriculacion;     //Se declara la variable con la fecha de matriculación
+        LocalDate Matriculacion = this.fMatriculacion;          //Se declara la variable con la fecha de matriculación
         Period periodo;
-        periodo = Period.between(fMatriculacion, fechaActual);  //Con este método obtenemos la diferencia de años
+        periodo = Period.between(Matriculacion, fechaActual);  //Con este método obtenemos la diferencia de años
                                                                 //entre la fecha de matriculación y la fecha actual.
         
         return periodo.getYears();

@@ -7,12 +7,15 @@ package Tarea5;
  */
 public class Cliente {
     
+    //DECLARACIÓN E INICIALIZACIÓN DE VARIABLES
     private int cPostal, numVehiculos = 0;
     private String dni, nombre, apellidos, direccion, poblacion;
-
+ 
+    //CONSTRUCTOR VACIO
     public Cliente() {
     }
 
+    //CONSTRUCTOR CON PARÁMETROS
     public Cliente(int cPostal, int numVehiculos, String dni, String nombre, String apellidos, String direccion, String poblacion) {
         this.cPostal = cPostal;
         this.numVehiculos = numVehiculos;
@@ -23,6 +26,7 @@ public class Cliente {
         this.poblacion = poblacion;
     }
 
+    //MÉTODOS SETTERS Y GETTERS
     public int getcPostal() {
         return cPostal;
     }
